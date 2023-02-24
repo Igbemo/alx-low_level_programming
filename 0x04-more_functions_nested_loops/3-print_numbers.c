@@ -5,11 +5,12 @@
  */
 void print_numbers(void)
 {
-	int k;
-	
-	for (k = 0; k < 10; k++)
+	int i;
+
+	for (i = 0; i < 10; i++)
 	{
-		_putchar ("%d" k "\n");
+		_putchar(i + '0');
 	}
-	return 
+
+	_putchar('\n');
 }
