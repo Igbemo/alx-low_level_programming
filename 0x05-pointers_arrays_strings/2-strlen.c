@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * _strlen - returns the length of the string in c programming
  * @s: return lenght of string
@@ -9,9 +9,9 @@
 
 int _strlen(char *s)
 {
-	int length;
+	int len;
 
-	length_S = strlen(s);
+	len = _strlen(s);
 
-	return (length_S);
+	return (len);
 }
