@@ -1,8 +1,10 @@
 #include "main.h"
 /**
-  main- wsap values
-  a is the ifrst values
-  b is the second values
+  main- swap values
+  @a- is the ifrst values
+  @b- is the second values
+  int- is the type of value
+  return- void
   */
 
 void swap_int(int *a, int *b)
