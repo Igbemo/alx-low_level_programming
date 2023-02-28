@@ -7,11 +7,11 @@
  * Return: length of string
  **/
 
-int _strlen(char *s)
+size_t _strlen(const char *str)
 {
-	int len;
+	size_t length = 0;
 
-	len = _strlen(s);
-
-	return (len);
+	while (**str++)
+	length++
+	return (length);
 }
