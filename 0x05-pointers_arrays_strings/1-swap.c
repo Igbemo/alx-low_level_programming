@@ -1,9 +1,9 @@
-#include 'main.h'
-/*
-   main- swap values
-   a- is first value
-   b- is second value
-   */
+#include "main.h"
+/**
+  main- wsap values
+  a is the ifrst values
+  b is the second values
+  */
 
 void swap_int(int *a, int *b)
 {
@@ -11,3 +11,4 @@ void swap_int(int *a, int *b)
 	*a = *b;
 	*b = i;
 }
+
