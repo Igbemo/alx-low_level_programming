@@ -1,4 +1,4 @@
-#include "main.h"
+#include 'main.h'
 /*
    main- swap values
    a- is first value
@@ -8,5 +8,6 @@
 void swap_int(int *a, int *b)
 {
 	int i = *a;
-	*a = *b
-	*b = 
+	*a = *b;
+	*b = i;
+}
